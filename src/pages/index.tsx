@@ -35,7 +35,7 @@ export default function HomePage() {
 
         <div className="grid grid-cols-3 gap-4">
           <div>
-            <img src={supachaiImageImage} alt="Supachai Maneerat" className="h-full w-full object-cover" />
+            <img src={supachaiImage} alt="Supachai Maneerat" className="h-full w-full object-cover" />
           </div>
 
           <p className="text-right col-span-2">
