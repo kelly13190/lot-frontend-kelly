@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="w-full grid grid-cols-3 gap-4">
+        <div className="flex">
           <div>
             <img src={supachaiImage} alt="Supachai Maneerat" className="h-full w-full object-cover" />
           </div>
