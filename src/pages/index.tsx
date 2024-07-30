@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="w-full flex flex-col">
           <div>
             <img src={supachaiImage} alt="Supachai Maneerat" className="h-full w-full object-cover" />
           </div>
@@ -47,11 +47,13 @@ export default function HomePage() {
             จึงได้เกิดเป็นคาเฟ่ IoT Library & Cafe ครับ
             </p>
 
-          <div className="flex">
-            <img src={supachai2Image} alt="Supachai Maneerat"/>
-            <img src={supachai3Image} alt="Supachai Maneerat" />
+          <div>
+            <img src={supachai2Image} alt="Supachai Maneerat" />
+
           </div>
         </div>
+
+
       </section>
 
       <section className="w-full flex justify-center">
