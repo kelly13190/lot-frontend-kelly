@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import cafeBackgroundImage from "../assets/images/bg-cafe-1.jpg";
 import ajPanwitImage from "../assets/images/aj-panwit.jpg";
 import coffeeImage from "../assets/images/coffee-1.jpg";
-import tanakitImage from "../assets/images/tanakit.jpg";
+import supachaiImage from "../assets/images/supachai.jpg";
 
 export default function HomePage() {
   return (
@@ -35,12 +35,13 @@ export default function HomePage() {
 
         <div className="grid grid-cols-3 gap-4">
           <div>
-            <img src={tanakitImage} alt="Tanakit Singsung" className="h-full w-full object-cover" />
+            <img src={supachaiImageImage} alt="Supachai Maneerat" className="h-full w-full object-cover" />
           </div>
 
           <p className="text-right col-span-2">
-          ปัจจุบันค่าเฟ่ และห้องสมุดของเรา อยู่ในช่วงการดูแลของ นายธนกฤต สิงห์สังข์ รหัส 65070090 ซึ่งมีบริการหนังสือให้อ่านโดยมีหนังสือหลากลายให้ได้เลือกอ่าน
-          แถมยังมีเครื่องดื่มกาแฟพร้อมให้บริการ มีเมนูหลากหลายให้เลือกในคาเฟ่แห่งนี้
+          ผมผู้ซึ่งชอบการถ่ายรูปและชอบเที่ยวคาเฟ่อยู่บ่อยครั้งเมื่อมีโอกาส ผมจึงเกิดความคิดว่าถ้าเราได้เปิดคาเฟ่เองจะมีสไตล์เป็นอย่างไร
+          ผมนายศุภชัย มณีรัตน์ 65070224 ผมได้นนำประสบการณ์มากมายที่ได้เที่ยวคาเฟ่ต่างๆมาผสานความเป็นตัวเอง และนำสิ่งที่ชอบมาตกแต่งอย่างมีความคิดสร้างสรรค์
+          จึงได้เกิดเป็นคาเฟ่ IoT Library & Cafe ครับ
         </p>
         </div>
       </section>
