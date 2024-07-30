@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="w-full flex flex-col">
+        <div className="grid grid-cols-3 gap-4">
           <div>
             <img src={supachaiImage} alt="Supachai Maneerat" className="h-full w-full object-cover" />
           </div>
@@ -46,14 +46,10 @@ export default function HomePage() {
             ผมนายศุภชัย มณีรัตน์ 65070224 ผมได้นนำประสบการณ์มากมายที่ได้เที่ยวคาเฟ่ต่างๆมาผสานความเป็นตัวเอง และนำสิ่งที่ชอบมาตกแต่งอย่างมีความคิดสร้างสรรค์
             จึงได้เกิดเป็นคาเฟ่ IoT Library & Cafe ครับ
             </p>
-
-          <div>
-            <img src={supachai2Image} alt="Supachai Maneerat" />
-
-          </div>
+        
+            <img src={supachai2Image} alt="Supachai Maneerat"/>
+            <img src={supachai3Image} alt="Supachai Maneerat" />
         </div>
-
-
       </section>
 
       <section className="w-full flex justify-center">
