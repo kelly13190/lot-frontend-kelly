@@ -5,6 +5,8 @@ import coffeeImage from "../assets/images/coffee-1.jpg";
 import supachaiImage from "../assets/images/supachai.jpg";
 import supachai2Image from "../assets/images/supachai2.jpg";
 import supachai3Image from "../assets/images/supachai3.jpg";
+import supachai4Image from "../assets/images/supachai3.jpg";
+import supachai5Image from "../assets/images/supachai3.jpg";
 
 export default function HomePage() {
   return (
@@ -49,6 +51,8 @@ export default function HomePage() {
         
             <img src={supachai2Image} alt="Supachai Maneerat" style={{width: "200px"}}/>
             <img src={supachai3Image} alt="Supachai Maneerat" style={{width: "200px"}} />
+            <img src={supachai4Image} alt="Supachai Maneerat" style={{width: "200px"}} />
+            <img src={supachai5Image} alt="Supachai Maneerat" style={{width: "200px"}} />
         </div>
       </section>
 
