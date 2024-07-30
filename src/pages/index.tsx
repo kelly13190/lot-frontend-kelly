@@ -3,6 +3,8 @@ import cafeBackgroundImage from "../assets/images/bg-cafe-1.jpg";
 import ajPanwitImage from "../assets/images/aj-panwit.jpg";
 import coffeeImage from "../assets/images/coffee-1.jpg";
 import supachaiImage from "../assets/images/supachai.jpg";
+import supachai2Image from "../assets/images/supachai2.jpg";
+import supachai3Image from "../assets/images/supachai3.jpg";
 
 export default function HomePage() {
   return (
@@ -38,11 +40,15 @@ export default function HomePage() {
             <img src={supachaiImage} alt="Supachai Maneerat" className="h-full w-full object-cover" />
           </div>
 
-          <p className="text-right col-span-2">
-          ผมผู้ซึ่งชอบการถ่ายรูปและชอบเที่ยวคาเฟ่อยู่บ่อยครั้งเมื่อมีโอกาส ผมจึงเกิดความคิดว่าถ้าเราได้เปิดคาเฟ่เองจะมีสไตล์เป็นอย่างไร
-          ผมนายศุภชัย มณีรัตน์ 65070224 ผมได้นนำประสบการณ์มากมายที่ได้เที่ยวคาเฟ่ต่างๆมาผสานความเป็นตัวเอง และนำสิ่งที่ชอบมาตกแต่งอย่างมีความคิดสร้างสรรค์
-          จึงได้เกิดเป็นคาเฟ่ IoT Library & Cafe ครับ
-        </p>
+          <div className="flex flex-col">
+            <p className="text-right col-span-2  items-center">
+            ผมผู้ซึ่งชอบการถ่ายรูปและชอบเที่ยวคาเฟ่อยู่บ่อยครั้งเมื่อมีโอกาส ผมจึงเกิดความคิดว่าถ้าเราได้เปิดคาเฟ่เองจะมีสไตล์เป็นอย่างไร
+            ผมนายศุภชัย มณีรัตน์ 65070224 ผมได้นนำประสบการณ์มากมายที่ได้เที่ยวคาเฟ่ต่างๆมาผสานความเป็นตัวเอง และนำสิ่งที่ชอบมาตกแต่งอย่างมีความคิดสร้างสรรค์
+            จึงได้เกิดเป็นคาเฟ่ IoT Library & Cafe ครับ
+            </p>
+            <img src={supachai2Image} alt="Supachai Maneerat"/>
+            <img src={supachai3Image} alt="Supachai Maneerat" />
+          </div>
         </div>
       </section>
 
