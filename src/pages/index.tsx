@@ -46,8 +46,8 @@ export default function HomePage() {
             ผมนายศุภชัย มณีรัตน์ 65070224 ผมได้นนำประสบการณ์มากมายที่ได้เที่ยวคาเฟ่ต่างๆมาผสานความเป็นตัวเอง และนำสิ่งที่ชอบมาตกแต่งอย่างมีความคิดสร้างสรรค์
             จึงได้เกิดเป็นคาเฟ่ IoT Library & Cafe ครับ
             </p>
-            
-          <div className="flex flex-col">
+
+          <div className="flex">
             <img src={supachai2Image} alt="Supachai Maneerat"/>
             <img src={supachai3Image} alt="Supachai Maneerat" />
           </div>
