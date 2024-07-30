@@ -47,8 +47,8 @@ export default function HomePage() {
             จึงได้เกิดเป็นคาเฟ่ IoT Library & Cafe ครับ
             </p>
         
-            <img src={supachai2Image} alt="Supachai Maneerat"/>
-            <img src={supachai3Image} alt="Supachai Maneerat" />
+            <img src={supachai2Image} alt="Supachai Maneerat" style={{width: "200px"}}/>
+            <img src={supachai3Image} alt="Supachai Maneerat" style={{width: "200px"}} />
         </div>
       </section>
 
